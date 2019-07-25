@@ -1,0 +1,14 @@
+{
+  "author": "CS50",
+  "description": "Adds a share button to CS50 IDE.",
+  "contributors": [
+    {
+      "email": "sysadmins@harvard.edu",
+      "name": "CS50"
+    }
+  ],
+  "name": "harvard.cs50.share",
+  "plugins": {
+    "share": {}
+  }
+}
