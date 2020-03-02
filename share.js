@@ -29,7 +29,7 @@ define(function(require, exports, module) {
                 caption: "Share",
                 class: "c9-share cs50-share",
                 tooltip: "Share this environment",
-                onclick: () => window.open(`https://ide.cs50.io/members?uuid=${userUUID}&project=${projectName}`, "_blank"),
+                onclick: () => parent.postMessage("members", "*"),
             });
 
             ui.insertByIndex(
